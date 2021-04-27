@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The Take Screenshot button takes the screenshot
+and the Render button renders the image to a cuboid
+
 ## Available Scripts
 
 In the project directory, you can run:
