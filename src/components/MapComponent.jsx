@@ -6,7 +6,7 @@ import Geocoder from "react-map-gl-geocoder";
 import { Link } from "react-router-dom";
 
 const MAPBOX_TOKEN =
-  "pk.eyJ1IjoiY3Jvc3NsaW5lYXBleCIsImEiOiJja253dmMwdTkwNGZ5MzJvM2dveGp3YXoxIn0.aV-tb-H02wkB2gYeVcSOaA";
+  process.env.REACT_APP_MAPBOX_TOKEN;
 
 const MapComponent = () => {
   const [url, setUrl] = useState(
